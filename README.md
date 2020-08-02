@@ -1,5 +1,34 @@
 Welcome to the EvoVR documentation - API for integrating virtual tours into web applications!
 
+<ul id="nav" class="nav_menu mt-3">
+            <li class="active">
+              <a href="#introduction">Introduction </a>
+            </li>
+            <li>
+              <a href="#api-integration">API integration </a>
+            </li>
+            <li>
+              <a href="#editor-integration">EvoVR Editor integration </a>
+              <ul>
+                <li><a href="#editor-integration-step-1">Step 1: Add the CSS link</a></li>
+                <li><a href="#editor-integration-step-2">Step 2: Add the JS links, authenticate the application and specify the language</a></li>
+                <li><a href="#editor-integration-step-3">Step 3: Add an HTML tag and make the necessary settings</a></li>
+                <li><a href="#editor-integration-step-4">Try it yourself</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#player-integration">EvoVR Player integration </a>
+              <ul>
+                <li><a href="#player-integration-step-1">Step 1: Add the CSS link</a></li>
+                <li><a href="#player-integration-step-2">Step 2: Add the JS links, authenticate the application and set the language</a></li>
+                <li><a href="#player-integration-step-3">Step 3: Add an HTML tag and make the necessary settings</a></li>
+                <li><a href="#player-integration-step-4">Try it yourself</a></li>
+              </ul>
+            </li>
+            <li><a href="#integration-for-portals">Integration in portals with multi-user access.</a></li>
+            <li><a href="#examples">Examples</a></li>
+          </ul>
+
 # Integrate virtual tours into your site or portal in a few easy steps.
 
 ## Introduction
