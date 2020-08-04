@@ -1,7 +1,3 @@
-<link rel="stylesheet" href="https://webobook.com/css/evovr.css">
-<script src="https://webobook.com/asset/as:zHdEIB_u3fcbcxOoDSnSVBfhgPGMentvHVIzRbKl"></script>
-<script src="https://webobook.com/api/asset/u:zHdEIB_u3fcbcxOoDSnSVBfhgPGMentvHVIzRbKl,cPBbAichKcu8pBIU7MEM3L8nW2RbvyLLRxKwI77L,en"></script>
-<div class="evovr-tour-editor" postid="post1" showGadget="true" buttonColor="gray" showIcon="true" editText="Edit Virual Tour" createText="Create Virtual Tour"></div>
 Welcome to the EvoVR documentation - API for integrating virtual tours into web applications!
 
 # Integrate virtual tours into your site or portal in a few easy steps.
