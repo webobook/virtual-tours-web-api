@@ -120,7 +120,7 @@ or with With jQuery
                 <tr>
                     <td><code class="highlighter-rouge"><code><span class="na">class=</span><span class="s">"evovr-tour-editor"</span></code></code></td>
                     <td>
-					Class of the element that calls [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours). [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) can be called from any html element with class "evovr-tour-editor".
+					Class of the element that calls ### Evo Virtual Tour Creator. Evo Virtual Tour Creator can be called from any html element with class "evovr-tour-editor".
 <br>
                     Type: <code>string</code><br>
                     Example: <code><span class="na">class=</span><span class="s">"evovr-tour-editor"</span></code>
@@ -205,7 +205,7 @@ or with With jQuery
 
 ## [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours) integration
 
-<p>There are three steps to integrating the [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours). The integration of the player should be in the public part of your site where your ads or posts are displayed to the end user.</p>
+<p>There are three steps to integrating the Evo Virtual Tour Player. The integration of the player should be in the public part of your site where your ads or posts are displayed to the end user.</p>
 
 <ol>
   <li>Step 1: Add the CSS link.</li>
@@ -237,7 +237,7 @@ or with With jQuery
 <figure class="highlight" style="margin: 0px;"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"https://webobook.com/asset/af:VIEW_API_KEY"</span><span class="nt">&gt;&lt;/script&gt;</span>
 <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"https://webobook.com/asset/c:VIEW_API_KEY,YOUR_LANGULAGE"</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></figure>
 
-<p><strong>Step 2-2:</strong> Follow these steps to get an API key if you dont already have and verify [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours):</p>
+<p><strong>Step 2-2:</strong> Follow these steps to get an API key if you dont already have and verify Evo Virtual Tour Player:</p>
 
 <ol>
   <li>Go to the <a target="_blank" href="http://webobook.com/register-domain"><strong>API Keys</strong></a> tab in <strong>Account settings</strong>.</li>
@@ -273,7 +273,7 @@ or with With jQuery
 
 ### Step 3: Add an HTML tag and make the necessary settings
 
-<p><strong>Step 3-1: </strong>Put the following <code class="highlighter-rouge">&lt;html&gt;</code> on your page where you want [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours) to appear.</p>
+<p><strong>Step 3-1: </strong>Put the following <code class="highlighter-rouge">&lt;html&gt;</code> on your page where you want Evo Virtual Tour Player to appear.</p>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div </span><span class="na">class=</span><span class="s">"evovr-tour-loader"</span> <span class="na">postid=</span><span class="s">"POST_ID"</span> <span class="na">showIFrame=</span><span class="s">"true"</span> <span class="na">showGadget=</span><span class="s">"false"</span> <span class="na">showIcon=</span><span class="s">"false"</span> <span class="na">buttonColor=</span><span class="s">""</span> <span class="na">text=</span><span class="s">""</span> <span class="na">style=</span><span class="s">"width:250px; text-align:center;"</span><span class="nt">&gt;&lt;/div&gt;</span>
 </code></pre></figure>
@@ -309,7 +309,7 @@ If the result is 0 the virtual tour is not published if the result is 1 the virt
                   <tr>
                     <td><code class="highlighter-rouge"><code><span class="na">class=</span><span class="s">"evovr-tour-loader"</span></code></code></td>
                     <td>
-					Class of the element that calls [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours). [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours) can be called from any html element with class "evovr-tour-loader".
+					Class of the element that calls Evo Virtual Tour Player. Evo Virtual Tour Player can be called from any html element with class "evovr-tour-loader".
 <br>
                     Type: <code>string</code><br>
                     Example: <code><span class="na">class=</span><span class="s">"evovr-tour-loader"</span></code>
@@ -411,7 +411,7 @@ Be sure to generate API keys (if you havent already) for your domain and insert 
 
 ### Example of integrating [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) without using the widget.
 
-<p>You can call [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) from any html element with class <code><span class="s">"evovr-tour-editor"</span></code> and set <code><span class="na">showGadget=</span><span class="s">"false"</span></code>.</p>
+<p>You can call Evo Virtual Tour Creator from any html element with class <code><span class="s">"evovr-tour-editor"</span></code> and set <code><span class="na">showGadget=</span><span class="s">"false"</span></code>.</p>
 
 <figure class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #BC7A00">&lt;!doctype html&gt;</span>
 &lt;<span style="color: #2f6f9f;">html</span>&gt;
@@ -430,9 +430,9 @@ Be sure to generate API keys (if you havent already) for your domain and insert 
 
 ### Example of integrating [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) using the widget.
 
-<p>You can use the widget, which includes an icon and a button below it, to open the [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours).<br>
+<p>You can use the widget, which includes an icon and a button below it, to open the Evo Virtual Tour Creator.<br>
 The widget can be customized, display icon and button or just a button. You can change the color of the button from the preset ones.<br>
-You can see the widget setup options in the [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) settings table.<br>
+You can see the widget setup options in the Evo Virtual Tour Creator settings table.<br>
 The example below will visualize the widget with all possible attributes.</p>
 
 <figure class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #BC7A00">&lt;!doctype html&gt;</span>
