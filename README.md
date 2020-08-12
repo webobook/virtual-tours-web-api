@@ -492,7 +492,7 @@ The example below will visualize the widget with all possible attributes.</p>
 
 <p>To use the built-in widget, which includes an icon and a button below it, you must set <code><span class="na">showIFrame=</span><span class="s">"false"</span></code> and <code><span class="na">showGadget=</span><span class="s">"true"</span></code>.
 The gadget can be customized, display an icon and a button, or display a button only. You can change the color of the button from the preset ones.
-You can see the widget options in the [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) settings table.</p>
+You can see the widget options in the Evo Virtual Tour Creator settings table.</p>
 
 <figure class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #BC7A00">&lt;!doctype html&gt;</span>
 &lt;<span style="color: #2f6f9f;">html</span>&gt;
