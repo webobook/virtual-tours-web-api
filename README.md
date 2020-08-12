@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Looking for a quick and easy way to integrate virtual tours and immersive virtual reality into your website or blog? Use the EvoVR API provided by WeboBook.
+Looking for a quick and easy way to integrate virtual tours and immersive virtual reality into your website or blog? Use the EvoVR Web API provided by WeboBook.
 
 EevoVr is a tool for creating and visualizing virtual tours with immersive virtual reality, it can be integrated into any site or portal with multiple accounts via Web API.
 
@@ -398,10 +398,10 @@ Dependencies: <span class="na">showIFrame</span> must be <code><span class="s">f
 
 ## Integration in portals with multi-user access.
 
-<p>The EvoVR API can be integrated into multi-user applications. To separate individual users you need to submit the <strong>user id </strong> in place of <code><span class="s">"EDIT_API_KEY"</span></code>.<br>
+<p>The EvoVR Web API can be integrated into multi-user applications. To separate individual users you need to submit the <strong>user id </strong> in place of <code><span class="s">"EDIT_API_KEY"</span></code>.<br>
 It is recommended to use a hash function such as <code>hash("sha256", "EDIT_API_KEY");</code>.
 The minimum characters to be sent for  <code><span class="s">"EDIT_API_KEY"</span></code>, are 16.<br>
-The EvoVR API will prompt your individual users to create a WeboBook account and will connect each individual user to your client in the API.<br>
+The EvoVR Web API will prompt your individual users to create a WeboBook account and will connect each individual user to your client in the API.<br>
 In this way, each individual user will be able to independently manage their virtual tours.</p>
 
 ## Examples
