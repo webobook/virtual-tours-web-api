@@ -1,6 +1,6 @@
-Welcome to the EvoVR documentation - API for integrating virtual tours into web applications!
-
 [Complete API documentation for virtual tours](https://webobook.com/api-virtual-tours)
+
+<p>Welcome to the EvoVR documentation - API for integrating virtual tours into web applications!</p>
 
 # Integrate virtual tours into your site or portal in a few easy steps.
 
@@ -12,21 +12,21 @@ EevoVr is a tool for creating and visualizing virtual tours with immersive virtu
 
 ## API integration
 
-EvoVr consists of two parts, EvoVR Editor and EvoVR Player. The integration of EvoVR Editor and EvoVR Player is done separately.
+EvoVr consists of two parts, [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) and [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours). The integration of [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) and [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours) is done separately.
 
-EvoVR Editor is the tool used to create and edit virtual tours. Integrates in the administrative part of the site, where ads or posts are created or edited.
+[Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) is the tool used to create and edit virtual tours. Integrates in the administrative part of the site, where ads or posts are created or edited.
 
-EvoVR Player is the player that visualizes virtual tours in front of the end user. It must be integrated in the public part of the site, where ads or posts are displayed to end users.
+[Evo Virtual Tour Player](https://webobook.com/api-virtual-tours) is the player that visualizes virtual tours in front of the end user. It must be integrated in the public part of the site, where ads or posts are displayed to end users.
 
 The architecture of EvoVR is built so that it can be integrated into any type of site, both in blogs or corporate sites and in large portals with multiple separate accounts.
 
-## EvoVR Editor integration
+## [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) integration
 
-There are three steps to add an EvoVR Editor.
+There are three steps to add an [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours).
 
 Editor integration should be in the admin panel of your site where your ads or posts are created and edited.
 
-There are three steps to add an EvoVR Editor.
+There are three steps to add an [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours).
 
 Editor integration should be in the admin panel of your site where your ads or posts are created and edited.
 
@@ -120,7 +120,7 @@ or with With jQuery
                 <tr>
                     <td><code class="highlighter-rouge"><code><span class="na">class=</span><span class="s">"evovr-tour-editor"</span></code></code></td>
                     <td>
-					Class of the element that calls EvoVR Editor. EvoVR Editor can be called from any html element with class "evovr-tour-editor".
+					Class of the element that calls [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours). [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) can be called from any html element with class "evovr-tour-editor".
 <br>
                     Type: <code>string</code><br>
                     Example: <code><span class="na">class=</span><span class="s">"evovr-tour-editor"</span></code>
@@ -203,9 +203,9 @@ or with With jQuery
 &lt;/<span style="color: #2f6f9f;">html</span>&gt;
 </pre></figure>
 
-## EvoVR Player integration
+## [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours) integration
 
-<p>There are three steps to integrating the EvoVR Player. The integration of the player should be in the public part of your site where your ads or posts are displayed to the end user.</p>
+<p>There are three steps to integrating the [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours). The integration of the player should be in the public part of your site where your ads or posts are displayed to the end user.</p>
 
 <ol>
   <li>Step 1: Add the CSS link.</li>
@@ -237,7 +237,7 @@ or with With jQuery
 <figure class="highlight" style="margin: 0px;"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"https://webobook.com/asset/af:VIEW_API_KEY"</span><span class="nt">&gt;&lt;/script&gt;</span>
 <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"https://webobook.com/asset/c:VIEW_API_KEY,YOUR_LANGULAGE"</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></figure>
 
-<p><strong>Step 2-2:</strong> Follow these steps to get an API key if you dont already have and verify EvoVR Player:</p>
+<p><strong>Step 2-2:</strong> Follow these steps to get an API key if you dont already have and verify [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours):</p>
 
 <ol>
   <li>Go to the <a target="_blank" href="http://webobook.com/register-domain"><strong>API Keys</strong></a> tab in <strong>Account settings</strong>.</li>
@@ -273,7 +273,7 @@ or with With jQuery
 
 ### Step 3: Add an HTML tag and make the necessary settings
 
-<p><strong>Step 3-1: </strong>Put the following <code class="highlighter-rouge">&lt;html&gt;</code> on your page where you want EvoVR Player to appear.</p>
+<p><strong>Step 3-1: </strong>Put the following <code class="highlighter-rouge">&lt;html&gt;</code> on your page where you want [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours) to appear.</p>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div </span><span class="na">class=</span><span class="s">"evovr-tour-loader"</span> <span class="na">postid=</span><span class="s">"POST_ID"</span> <span class="na">showIFrame=</span><span class="s">"true"</span> <span class="na">showGadget=</span><span class="s">"false"</span> <span class="na">showIcon=</span><span class="s">"false"</span> <span class="na">buttonColor=</span><span class="s">""</span> <span class="na">text=</span><span class="s">""</span> <span class="na">style=</span><span class="s">"width:250px; text-align:center;"</span><span class="nt">&gt;&lt;/div&gt;</span>
 </code></pre></figure>
@@ -285,7 +285,7 @@ or with With jQuery
 <p>Submitting a value to <code><span class="na">postid</span></code> is required, <code><span class="na">postid</span></code> postid initializes the virtual tour.</p>
 <p> For <code><span class="na">postid</span></code> you can set a variable with the ID number of your ad or post. Put the variable in place of the <span class="s">"POST_ID"</span>.</p>
 
-### Additional settings for EvoVR Player:
+### Additional settings for [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours):
 
 <p>Check if the virtual tour is published.</p>
 
@@ -309,7 +309,7 @@ If the result is 0 the virtual tour is not published if the result is 1 the virt
                   <tr>
                     <td><code class="highlighter-rouge"><code><span class="na">class=</span><span class="s">"evovr-tour-loader"</span></code></code></td>
                     <td>
-					Class of the element that calls EvoVR Player. EvoVR Player can be called from any html element with class "evovr-tour-loader".
+					Class of the element that calls [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours). [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours) can be called from any html element with class "evovr-tour-loader".
 <br>
                     Type: <code>string</code><br>
                     Example: <code><span class="na">class=</span><span class="s">"evovr-tour-loader"</span></code>
@@ -409,9 +409,9 @@ In this way, each individual user will be able to independently manage their vir
 <p>You can experiment with the examples below.<br>
 Be sure to generate API keys (if you havent already) for your domain and insert the appropriate key.</p>
 
-### Example of integrating EvoVR Editor without using the widget.
+### Example of integrating [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) without using the widget.
 
-<p>You can call EvoVR Editor from any html element with class <code><span class="s">"evovr-tour-editor"</span></code> and set <code><span class="na">showGadget=</span><span class="s">"false"</span></code>.</p>
+<p>You can call [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) from any html element with class <code><span class="s">"evovr-tour-editor"</span></code> and set <code><span class="na">showGadget=</span><span class="s">"false"</span></code>.</p>
 
 <figure class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #BC7A00">&lt;!doctype html&gt;</span>
 &lt;<span style="color: #2f6f9f;">html</span>&gt;
@@ -428,11 +428,11 @@ Be sure to generate API keys (if you havent already) for your domain and insert 
 &lt;/<span style="color: #2f6f9f;">html</span>&gt;
 </pre></figure>
 
-### Example of integrating EvoVR Editor using the widget.
+### Example of integrating [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) using the widget.
 
-<p>You can use the widget, which includes an icon and a button below it, to open the EvoVR Editor.<br>
+<p>You can use the widget, which includes an icon and a button below it, to open the [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours).<br>
 The widget can be customized, display icon and button or just a button. You can change the color of the button from the preset ones.<br>
-You can see the widget setup options in the EvoVR Editor settings table.<br>
+You can see the widget setup options in the [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) settings table.<br>
 The example below will visualize the widget with all possible attributes.</p>
 
 <figure class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #BC7A00">&lt;!doctype html&gt;</span>
@@ -450,7 +450,7 @@ The example below will visualize the widget with all possible attributes.</p>
 &lt;/<span style="color: #2f6f9f;">html</span>&gt;
 </pre></figure>
 
-### Example of integrating EvoVR Player with direct loading of the virtual tour in Iframe.
+### Example of integrating [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours) with direct loading of the virtual tour in Iframe.
 
 <p>If you want to load a virtual tour along with loading the page, you must set the <code><span class="na">showIFrame=</span><span class="s">"true"</span></code> attribute. This will load the virtual tour in Iframe while your page loads.</p>
 
@@ -469,7 +469,7 @@ The example below will visualize the widget with all possible attributes.</p>
 &lt;/<span style="color: #2f6f9f;">html</span>&gt;
 </pre></figure>
 
-### Example of integrating EvoVR Player by loading the virtual tour in a modal window.
+### Example of integrating [Evo Virtual Tour Player](https://webobook.com/api-virtual-tours) by loading the virtual tour in a modal window.
 
 <p>If you want to load the virtual tour after clicking a button in a full-screen modal window, you can use a custom button or the built-in widget.</p>
 
@@ -492,7 +492,7 @@ The example below will visualize the widget with all possible attributes.</p>
 
 <p>To use the built-in widget, which includes an icon and a button below it, you must set <code><span class="na">showIFrame=</span><span class="s">"false"</span></code> and <code><span class="na">showGadget=</span><span class="s">"true"</span></code>.
 The gadget can be customized, display an icon and a button, or display a button only. You can change the color of the button from the preset ones.
-You can see the widget options in the EvoVR editor settings table.</p>
+You can see the widget options in the [Evo Virtual Tour Creator](https://webobook.com/api-virtual-tours) settings table.</p>
 
 <figure class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #BC7A00">&lt;!doctype html&gt;</span>
 &lt;<span style="color: #2f6f9f;">html</span>&gt;
