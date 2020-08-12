@@ -1,16 +1,16 @@
-[Complete API documentation for virtual tours](https://webobook.com/api-virtual-tours)
+[Complete Web API documentation for Virtual Tours & Virtual Reality](https://webobook.com/api-virtual-tours)
 
-<p>Welcome to the EvoVR documentation - API for integrating virtual tours into web applications!</p>
+<p>Welcome to the EvoVR documentation - Web API for integrating Virtual Tours & Virtual Reality into web applications!</p>
 
-# Integrate virtual tours into your site or portal in a few easy steps.
+# Integrate Virtual Tours & Virtual Reality into your site or portal in a few easy steps.
 
 ## Introduction
 
 Looking for a quick and easy way to integrate virtual tours and immersive virtual reality into your website or blog? Use the EvoVR API provided by WeboBook.
 
-EevoVr is a tool for creating and visualizing virtual tours with immersive virtual reality, it can be integrated into any site or portal with multiple accounts via API.
+EevoVr is a tool for creating and visualizing virtual tours with immersive virtual reality, it can be integrated into any site or portal with multiple accounts via Web API.
 
-## API integration
+## Web API integration
 
 EvoVr consists of two parts, [EvoVR Virtual Tour Creator](https://webobook.com/api-virtual-tours) and [EvoVR Virtual Tour Player](https://webobook.com/api-virtual-tours). The integration of [EvoVR Virtual Tour Creator](https://webobook.com/api-virtual-tours) and [EvoVR Virtual Tour Player](https://webobook.com/api-virtual-tours) is done separately.
 
