@@ -37,7 +37,7 @@ Editor integration should be in the admin panel of your site where your ads or p
 ### Step 1: Add the CSS link
 Copy and paste the <code class="highlighter-rouge">&lt;link&gt;</code> styles into the <code class="highlighter-rouge">&lt;head&gt;</code> section of your page.
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://webobook.com/css/evovr.css"</span><span class="nt">&gt;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://webobook.com/asset/ev:latest"</span><span class="nt">&gt;</span></code></pre></figure>
 
 ### Step 2: Add the JS links, authenticate the application and specify the language
 
@@ -193,7 +193,7 @@ or with With jQuery
 &lt;<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">meta</span> <span style="color: #7D9029">charset</span><span style="color: #666666">=</span><span style="color: #BA2121">"utf-8"</span>&gt;
 &lt;<span style="color: #2f6f9f;">title</span>&gt;EvoVR Virtual Tour Creator:Test&lt;/<span style="color: #2f6f9f;">title</span>&gt;
-&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/css/evovr.css"</span>&gt;
+&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/asset/ev:latest"</span>&gt;
 &lt;/<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">body</span>&gt;
 &lt;<span style="color: #2f6f9f;">div</span> <span style="color: #7D9029">class</span><span style="color: #666666">=</span><span style="color: #BA2121">"evovr-tour-editor"</span> <span style="color: #7D9029">postid</span><span style="color: #666666">=</span><span style="color: #BA2121">"101"</span> <span style="color: #7D9029">buttonColor</span><span style="color: #666666">=</span><span style="color: #BA2121">"gray"</span> <span style="color: #7D9029">showGadget</span><span style="color: #666666">=</span><span style="color: #BA2121">"true"</span> <span style="color: #7D9029">showIcon</span><span style="color: #666666">=</span><span style="color: #BA2121">"true"</span> <span style="color: #7D9029">editText</span><span style="color: #666666">=</span><span style="color: #BA2121">"Create a tour"</span> <span style="color: #7D9029">createText</span><span style="color: #666666">=</span><span style="color: #BA2121">"Edit tour"</span> &gt;Open&lt;/<span style="color: #2f6f9f;">div</span>&gt;
@@ -215,7 +215,7 @@ or with With jQuery
 
 ### Step 1: Add the CSS link
 <p>Copy and paste the <code class="highlighter-rouge">&lt;link&gt;</code> styles into the <code class="highlighter-rouge">&lt;head&gt;</code> section of your page.</p>
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://webobook.com/css/evovr-preview.css"</span><span class="nt">&gt;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://webobook.com/asset/ep:latest"</span><span class="nt">&gt;</span></code></pre></figure>
 
 ### Step 2: Add the JS links, authenticate the application and set the language
 
@@ -386,7 +386,7 @@ Dependencies: <span class="na">showIFrame</span> must be <code><span class="s">f
 &lt;<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">meta</span> <span style="color: #7D9029">charset</span><span style="color: #666666">=</span><span style="color: #BA2121">"utf-8"</span>&gt;
 &lt;<span style="color: #2f6f9f;">title</span>&gt;EvoVR Virtual Tour Player:Test&lt;/<span style="color: #2f6f9f;">title</span>&gt;
-&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/css/evovr-preview.css"</span>&gt;
+&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/asset/ep:latest"</span>&gt;
 &lt;/<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">body</span>&gt;
 &lt;<span style="color: #2f6f9f;">div</span> <span style="color: #7D9029">class</span><span style="color: #666666">=</span><span style="color: #BA2121">"evovr-tour-loader"</span> <span style="color: #7D9029">postid</span><span style="color: #666666">=</span><span style="color: #BA2121">"101"</span> <span style="color: #7D9029">showIFrame</span><span style="color: #666666">=</span><span style="color: #BA2121">"true"</span> <span style="color: #7D9029">style</span><span style="color: #666666">=</span><span style="color: #BA2121">"width:100%; height:100%"</span>&gt;&lt;/<span style="color: #2f6f9f;">div</span>&gt;
@@ -418,7 +418,7 @@ Be sure to generate API keys (if you havent already) for your domain and insert 
 &lt;<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">meta</span> <span style="color: #7D9029">charset</span><span style="color: #666666">=</span><span style="color: #BA2121">"utf-8"</span>&gt;
 &lt;<span style="color: #2f6f9f;">title</span>&gt;EvoVR Virtual Tour Creator:Test&lt;/<span style="color: #2f6f9f;">title</span>&gt;
-&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/css/evovr.css"</span>&gt;
+&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/asset/ev:latest"</span>&gt;
 &lt;/<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">body</span>&gt;
 &lt;<span style="color: #2f6f9f;">button</span> <span style="color: #7D9029">class</span><span style="color: #666666">=</span><span style="color: #BA2121">"evovr-tour-editor"</span> <span style="color: #7D9029">postid</span><span style="color: #666666">=</span><span style="color: #BA2121">"101"</span> <span style="color: #7D9029">showGadget</span><span style="color: #666666">=</span><span style="color: #BA2121">"false"</span> &gt;Open&lt;/<span style="color: #2f6f9f;">button</span>&gt;
@@ -440,7 +440,7 @@ The example below will visualize the widget with all possible attributes.</p>
 &lt;<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">meta</span> <span style="color: #7D9029">charset</span><span style="color: #666666">=</span><span style="color: #BA2121">"utf-8"</span>&gt;
 &lt;<span style="color: #2f6f9f;">title</span>&gt;EvoVR Virtual Tour Creator:Test&lt;/<span style="color: #2f6f9f;">title</span>&gt;
-&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/css/evovr.css"</span>&gt;
+&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/asset/ev:latest"</span>&gt;
 &lt;/<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">body</span>&gt;
 &lt;<span style="color: #2f6f9f;">div</span> <span style="color: #7D9029">class</span><span style="color: #666666">=</span><span style="color: #BA2121">"evovr-tour-editor"</span> <span style="color: #7D9029">postid</span><span style="color: #666666">=</span><span style="color: #BA2121">"101"</span> <span style="color: #7D9029">showGadget</span><span style="color: #666666">=</span><span style="color: #BA2121">"true"</span> <span style="color: #7D9029">buttonColor</span><span style="color: #666666">=</span><span style="color: #BA2121">"gray"</span> <span style="color: #7D9029">showIcon</span><span style="color: #666666">=</span><span style="color: #BA2121">"true"</span> <span style="color: #7D9029">editText</span><span style="color: #666666">=</span><span style="color: #BA2121">"Edit tour"</span> <span style="color: #7D9029">createText</span><span style="color: #666666">=</span><span style="color: #BA2121">"Create a tour"</span> &gt;Open&lt;/<span style="color: #2f6f9f;">div</span>&gt;
@@ -459,7 +459,7 @@ The example below will visualize the widget with all possible attributes.</p>
 &lt;<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">meta</span> <span style="color: #7D9029">charset</span><span style="color: #666666">=</span><span style="color: #BA2121">"utf-8"</span>&gt;
 &lt;<span style="color: #2f6f9f;">title</span>&gt;EvoVR Virtual Tour Player:Test&lt;/<span style="color: #2f6f9f;">title</span>&gt;
-&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/css/evovr-preview.css"</span>&gt;
+&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/asset/ep:latest"</span>&gt;
 &lt;/<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">body</span>&gt;
 &lt;<span style="color: #2f6f9f;">div</span> <span style="color: #7D9029">class</span><span style="color: #666666">=</span><span style="color: #BA2121">"evovr-tour-loader"</span> <span style="color: #7D9029">postid</span><span style="color: #666666">=</span><span style="color: #BA2121">"101"</span> <span style="color: #7D9029">showIFrame</span><span style="color: #666666">=</span><span style="color: #BA2121">"true"</span> <span style="color: #7D9029">style</span><span style="color: #666666">=</span><span style="color: #BA2121">"width:100%; height:100%"</span>&gt;&lt;/<span style="color: #2f6f9f;">div</span>&gt;
@@ -480,7 +480,7 @@ The example below will visualize the widget with all possible attributes.</p>
 &lt;<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">meta</span> <span style="color: #7D9029">charset</span><span style="color: #666666">=</span><span style="color: #BA2121">"utf-8"</span>&gt;
 &lt;<span style="color: #2f6f9f;">title</span>&gt;EvoVR Virtual Tour Player:Test&lt;/<span style="color: #2f6f9f;">title</span>&gt;
-&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/css/evovr-preview.css"</span>&gt;
+&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/asset/ep:latest"</span>&gt;
 &lt;/<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">body</span>&gt;
 &lt;<span style="color: #2f6f9f;">button</span> <span style="color: #7D9029">class</span><span style="color: #666666">=</span><span style="color: #BA2121">"evovr-tour-loader"</span> <span style="color: #7D9029">postid</span><span style="color: #666666">=</span><span style="color: #BA2121">"101"</span> <span style="color: #7D9029">showIFrame</span><span style="color: #666666">=</span><span style="color: #BA2121">"false"</span> <span style="color: #7D9029">showGadget</span><span style="color: #666666">=</span><span style="color: #BA2121">"false"</span>&gt;&lt;/<span style="color: #2f6f9f;">button</span>&gt;
@@ -499,7 +499,7 @@ You can see the widget options in the EvoVR Virtual Tour Creator settings table.
 &lt;<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">meta</span> <span style="color: #7D9029">charset</span><span style="color: #666666">=</span><span style="color: #BA2121">"utf-8"</span>&gt;
 &lt;<span style="color: #2f6f9f;">title</span>&gt;EvoVR Virtual Tour Player:Test&lt;/<span style="color: #2f6f9f;">title</span>&gt;
-&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/css/evovr-preview.css"</span>&gt;
+&lt;<span style="color: #2f6f9f;">link</span> <span style="color: #7D9029">rel</span><span style="color: #666666">=</span><span style="color: #BA2121">"stylesheet"</span> <span style="color: #7D9029">href</span><span style="color: #666666">=</span><span style="color: #BA2121">"https://webobook.com/asset/ep:latest"</span>&gt;
 &lt;/<span style="color: #2f6f9f;">head</span>&gt;
 &lt;<span style="color: #2f6f9f;">body</span>&gt;
 &lt;<span style="color: #2f6f9f;">div</span> <span style="color: #7D9029">class</span><span style="color: #666666">=</span><span style="color: #BA2121">"evovr-tour-loader"</span> <span style="color: #7D9029">postid</span><span style="color: #666666">=</span><span style="color: #BA2121">"101"</span> <span style="color: #7D9029">showIFrame</span><span style="color: #666666">=</span><span style="color: #BA2121">"false"</span> <span style="color: #7D9029">showGadget</span><span style="color: #666666">=</span><span style="color: #BA2121">"true"</span> <span style="color: #7D9029">buttonColor</span><span style="color: #666666">=</span><span style="color: #BA2121">"gray"</span> <span style="color: #7D9029">showIcon</span><span style="color: #666666">=</span><span style="color: #BA2121">"true"</span> <span style="color: #7D9029">text</span><span style="color: #666666">=</span><span style="color: #BA2121">"View the virtual tour"</span> <span style="color: #7D9029">style</span><span style="color: #666666">=</span><span style="color: #BA2121">"width:250px; text-align:center;"</span>&gt;&lt;/<span style="color: #2f6f9f;">div</span>&gt;
